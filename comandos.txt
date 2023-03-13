@@ -1,0 +1,20 @@
+pwd --> imprimir directorio actual
+ls --> lista de archivos en directorio actual
+ls -l --> lista de archivos pero con mas informacion
+ls -a --> permite ver tambien los archivos ocultos
+mkdir nombre--> crear carpeta nombre, si el nombre tiene espacios toca ponerlo en comillas
+cd name --> change directory, abrir carpeta name
+cd .. --> devolverse una carpeta atras
+touch archivo.py --> crea un nuevo archivo y hay que indicar la extension del archivo
+rm archivo.py --> eliminar archivo.py
+rm -r name --> elimina carpeta name
+comando --help --> documentacion del comando
+code archico.py --> abre visual studio para editar el archivo
+
+-------CREAR REPOSITORIO-----------
+git init -> ubicados en la carpeta que va a ser usada como repositorio
+git status --> para saber si estammos posicionados en un escritorio 
+--commit es una captura instantanea de los cambios preparados en ese momento del proyecto, es como un backup de los archivos del repositorio y que no será modificado a menos de que lo expresemos, para que una carpeta se agregue al commit debe tener al menos un archivo, carpetas vacias no estaran en el commit--
+git add archivo.py --> agregar el archivo.py al commit
+git add . --> agrega todos lo archivos al commit
+git commit -m 'mensaje descriptivo' --> generar el commit y se agrega una descripcion de lo que contiene el commit
